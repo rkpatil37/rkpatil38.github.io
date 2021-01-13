@@ -1,0 +1,99 @@
+body{
+
+background-image:linear-gradient(to right,
+rgba(255,0,0,0),
+rgb(20, 112, 199));
+}
+.first{
+font-size: large;
+padding-left: 250px;
+}
+.second{
+    font-family: 'Gill Sans';
+}
+.third{
+
+    font-size: 35px;
+    margin-top: 100px;
+    padding:10px;
+}
+.four{
+    font-family:'Courier New';
+    font-size: 90px;
+    padding-top: 10px;
+    line-height: 50px;
+    margin: 10px;
+    letter-spacing: 10px;
+
+}
+.five{
+    font-size: 20px;
+    padding-left:200px;
+    font-family: monospace Courier;
+    padding-left: 10px;  }
+
+    
+    .six{
+        margin:0;
+        position: absolute;
+        top: 90%;
+        left:30%;
+        -ms-transform: 
+        translate(-80%);
+        transform: translate(-80%);
+    }   
+    .btn-2{
+        border:0px solid #000;
+        border-radius:25px;
+        font-size: 25px;
+        overflow: hidden;
+        box-shadow:0px 0px 0px 0px rgba(0,0,0,.1);
+
+    }
+    .btn-2:hover {
+           transform: translate(0,-5px);
+           box-shadow: 0px 6px 25px 0px rgba(0,0,0,.08);
+
+    }
+    .btn-2:hover:after{
+        transform: translate(0);
+    }
+@media screen and (min-width:300px){
+    .first{
+        position: fixed;
+
+       }
+       .five{
+        width: 100%;
+        height: 100%;
+        
+       }
+       .third{
+        font-size: 60px;
+        margin-top: 0px; 
+    }
+    .four{
+        padding: 10px;
+       }
+}
+
+@media screen and (max-width:1500px){
+       .first{
+        position: relative;
+       }
+       .third{
+        font-size: 30px;
+        padding-top: 100px;
+       }
+       .four{
+        padding-top: 10px;
+       }
+        .five{
+            width: 100%;
+            height: 100%;
+        
+        
+         }   
+       }
+
+
